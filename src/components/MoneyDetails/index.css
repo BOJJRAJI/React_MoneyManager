@@ -1,0 +1,95 @@
+.money-details-container {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  list-style-type: none;
+}
+.amount-image {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.amount-para {
+  font-size: 13px;
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 700;
+}
+.amount {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 700;
+}
+.balance-money-card {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+  border-radius: 9px;
+  width: 30%;
+  padding: 10px;
+}
+
+.income-money-card {
+  display: flex;
+  padding-left: 10px;
+  flex-direction: row;
+  border: 1px solid #06b6d4;
+  background-color: #cffafe;
+  border-radius: 9px;
+  width: 30%;
+  padding: 10px;
+}
+.expenses-money-card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+  border-radius: 9px;
+  width: 30%;
+  padding-left: 10px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .money-details-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .balance-money-card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .income-money-card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .expenses-money-card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .money-details-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .balance-money-card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .income-money-card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .expenses-money-card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
